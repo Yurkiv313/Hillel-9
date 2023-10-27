@@ -1,0 +1,6 @@
+<form action="/" method="post">
+  {% csrf_token %}
+  <input type="text" name="phone_number" placeholder="Номер телефону">
+  <input type="text" name="message" placeholder="Меседж">
+  <input type="submit" value="Відправити">
+</form>
